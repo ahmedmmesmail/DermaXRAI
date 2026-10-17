@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">DermaXRAI</string>
+
+    <!-- Home: header -->
+    <string name="home_badge_personalized_care">Personalized smart care</string>
+    <string name="home_welcome_title">Welcome today to</string>
+    <string name="home_welcome_subtitle">Your smart skin-care assistant that analyzes vital indicators with comfortable scientific precision.</string>
+
+    <!-- Home: scan card -->
+    <string name="home_scan_title">Accurate, instant scan</string>
+    <string name="home_scan_subtitle">XRAI heat-map interpretation technology</string>
+    <string name="home_scan_badge">Updated</string>
+    <string name="home_scan_button">Scan your skin now</string>
+    <string name="home_cd_scan">Scan</string>
+
+    <!-- Home: last scan -->
+    <string name="home_last_scan_title">Your last skin scan</string>
+    <string name="home_last_scan_time">Yesterday, 10:30 AM</string>
+    <string name="home_skin_type_label">Diagnostic type</string>
+    <string name="home_skin_type_value">Combination skin</string>
+    <string name="home_skin_status">Stable and balanced</string>
+    <string name="home_zones_title">Active zones distribution</string>
+    <string name="home_zones_subtitle">Highest concentration in the T-Zone</string>
+    <string name="home_zones_map">XRAI map</string>
+    <string name="home_indicators_title">Top observed indicators:</string>
+    <string name="home_indicator_acne">Acne</string>
+    <string name="home_indicator_pigmentation">Pigmentation</string>
+    <string name="home_indicator_dryness">Localized dryness</string>
+    <string name="home_indicator_percent">%1$d%%</string>
+    <string name="home_view_details">View full details and deep analysis</string>
+
+    <!-- Home: quick routine -->
+    <string name="home_routine_title">Quick care routine</string>
+    <string name="home_routine_today">Today\'s steps</string>
+    <string name="home_routine_morning_title">Morning routine</string>
+    <string name="home_routine_morning_subtitle">Sun and active protection</string>
+    <string name="home_routine_morning_steps">%1$d steps</string>
+    <string name="home_routine_evening_title">Evening routine</string>
+    <string name="home_routine_evening_subtitle">Deep repair and nourishment</string>
+    <string name="home_routine_pending">Pending</string>
+
+    <!-- Home: tip + disclaimer -->
+    <string name="home_tip_title">Today\'s hydration tip</string>
+    <string name="home_tip_body" formatted="false">Applying moisturizer right after washing your face, while it is still slightly damp, boosts water retention by up to 40% in the stratum corneum.</string>
+    <string name="home_disclaimer">This app helps with skin care and is not a medical diagnosis.</string>
+
+    <!-- Routine -->
+    <string name="routine_updated">Analysis updated: today 9:30 AM</string>
+    <string name="routine_accuracy">Match accuracy %1$d%%</string>
+    <string name="routine_title">Your personalized daily routine</string>
+    <string name="routine_subtitle">Based on your latest XRAI skin analysis and natural protective barrier.</string>
+    <string name="routine_tab_morning">Morning routine</string>
+    <string name="routine_tab_evening">Evening routine</string>
+    <string name="routine_evening_placeholder">Your evening routine will appear here.</string>
+
+    <string name="routine_ingredients_title">Recommended active ingredients</string>
+    <string name="routine_ingredients_match">High match</string>
+    <string name="routine_ingredient_niacinamide" formatted="false">Niacinamide 4%</string>
+    <string name="routine_ingredient_hyaluronic">Hyaluronic acid</string>
+    <string name="routine_ingredient_green_tea">Green tea extract</string>
+
+    <string name="routine_steps_title">Application steps</string>
+    <string name="routine_steps_count">%1$d sequential steps</string>
+    <string name="routine_step_label">Step %1$d • %2$s</string>
+    <string name="routine_category_cleansing">Cleansing</string>
+    <string name="routine_category_treatment">Targeted treatment</string>
+    <string name="routine_category_hydration">Hydration &amp; support</string>
+    <string name="routine_category_sun">Morning protection</string>
+
+    <string name="routine_step1_title">Gentle foaming cleanser</string>
+    <string name="routine_step1_desc">Deep-cleans pores and removes impurities without stripping the skin\'s natural moisture.</string>
+    <string name="routine_step1_meta">1 min</string>
+    <string name="routine_step1_footer">Balanced pH (5.5)</string>
+    <string name="routine_step1_action">Usage details</string>
+
+    <string name="routine_step2_title">Repairing niacinamide serum</string>
+    <string name="routine_step2_desc">Calms pigmentation spots and regulates the oil secretion recorded in your heat-map analysis.</string>
+    <string name="routine_step2_meta">Excellent response</string>
+    <string name="routine_step2_footer">Apply 3–4 drops by patting</string>
+    <string name="routine_step2_action">AI note</string>
+
+    <string name="routine_step3_title">Lightweight gel moisturizer with ceramides</string>
+    <string name="routine_step3_desc">A gel formula that supports the skin\'s lipid matrix and locks in hydration without a greasy finish.</string>
+    <string name="routine_step3_meta">Protective barrier</string>
+    <string name="routine_step3_footer">Fast-absorbing</string>
+    <string name="routine_step3_action">Compatibility check</string>
+
+    <string name="routine_tag_spf" translatable="false">SPF 50+</string>
+    <string name="routine_step4_title">Broad-spectrum sunscreen</string>
+    <string name="routine_step4_desc">Superior UVA/UVB protection to stop dark spots from returning and to limit oxidation during the day.</string>
+    <string name="routine_step4_footer">Reapply every 2 hours</string>
+    <string name="routine_step4_action">Morning only</string>
+
+    <string name="routine_reminder_title">Daily routine reminder</string>
+    <string name="routine_reminder_subtitle">A gentle notification to keep up with your care steps</string>
+    <string name="routine_reminder_time_label">Preferred reminder time</string>
+    <string name="routine_reminder_time">08:00</string>
+    <string name="routine_reminder_am">AM</string>
+
+    <string name="routine_log_morning">Log morning routine as done</string>
+    <string name="routine_log_evening">Log evening routine as done</string>
+    <string name="routine_consistency_note" formatted="false">Consistent use improves skin response by 42% over 28 days</string>
+
+    <!-- Settings -->
+    <string name="settings_title">Settings &amp; data management</string>
+    <string name="settings_subtitle">Full control over your privacy, analysis experience, and appearance</string>
+    <string name="settings_trusted_title">Trusted cloud processor</string>
+    <string name="settings_trusted_desc">An instant-encryption protocol that follows advanced security standards to match pigmentation scores and XRAI results</string>
+
+    <string name="settings_section_appearance">Appearance &amp; language</string>
+    <string name="settings_theme_title">Interface theme</string>
+    <string name="settings_theme_subtitle">Choose the visual style that suits your eyes</string>
+    <string name="settings_theme_light">Light</string>
+    <string name="settings_theme_dark">Dark</string>
+    <string name="settings_theme_auto">Auto</string>
+    <string name="settings_theme_active_light">Light active</string>
+    <string name="settings_theme_active_dark">Dark active</string>
+    <string name="settings_theme_active_auto">Auto active</string>
+    <string name="settings_language_title">App language</string>
+    <string name="settings_language_subtitle">Change the interface and diagnosis terminology</string>
+    <string name="settings_language_arabic" translatable="false">العربية</string>
+    <string name="settings_language_english" translatable="false">English</string>
+
+    <string name="settings_section_privacy">Privacy &amp; image security</string>
+    <string name="settings_guarantee_title">Absolute privacy guarantee</string>
+    <string name="settings_guarantee_badge">No storage</string>
+    <string name="settings_guarantee_body">The face image is sent encrypted for cloud analysis and deleted immediately after the results are extracted; it is never stored. Only the mathematical interpretation maps (XRAI Vectors) are kept locally on your phone.</string>
+    <string name="settings_e2ee_label">Biometric channel encryption (E2EE 256-bit)</string>
+    <string name="settings_e2ee_status">Automatically active</string>
+    <string name="settings_camera_title">Camera permission</string>
+    <string name="settings_camera_subtitle">Required to capture and analyze skin with micrometric precision...</string>
+    <string name="settings_policy_title">Privacy policy &amp; terms of use</string>
+    <string name="settings_policy_subtitle">Full transparency on how algorithms process data</string>
+    <string name="settings_cache_title">Temporary cache log</string>
+    <string name="settings_cache_subtitle">%1$s MB used for charts</string>
+
+    <string name="settings_about_version">Version v%1$s (Build %2$s)</string>
+    <string name="settings_about_engine">Layered analysis engine enhanced with smart interpretability</string>
+    <string name="settings_disclaimer_title">Explicit medical disclaimer</string>
+    <string name="settings_disclaimer_body">DermaXRAI is a smart skin-care assistant, not a licensed medical diagnosis tool. The information and analytical maps provided are for educational purposes and for tracking self-care products only, and never replace direct consultation with a qualified dermatologist.</string>
+    <string name="settings_copyright">© %2$s %1$s integrated system. All rights reserved.</string>
+    <string name="settings_link_release_notes">Release notes</string>
+    <string name="settings_link_licenses">Open-source licenses</string>
+    <string name="settings_link_support">Technical support</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_skip">Skip</string>
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_previous">Previous</string>
+    <string name="onboarding_back">Back</string>
+    <string name="onboarding_start">Start now and scan your skin</string>
+    <string name="onboarding_step">Step %1$d of %2$d</string>
+    <string name="onboarding_ready">Ready to use</string>
+    <string name="onboarding_tagline">Interpretive clinical AI</string>
+
+    <string name="onboarding_p1_title">Scan, analyze, and understand your skin precisely</string>
+    <string name="onboarding_p1_body">Take a clear photo of your face and let our advanced algorithms analyze skin indicators and texture deeply and quickly, without ever storing your photos.</string>
+    <string name="onboarding_p1_chip">Smart biometric scanning</string>
+    <string name="onboarding_p1_feature1">Instant scan within seconds</string>
+    <string name="onboarding_p1_feature2">Full protection with photos that can\'t be saved</string>
+
+    <string name="onboarding_p2_title">Full transparency: how does AI explain its decisions?</string>
+    <string name="onboarding_p2_body">We don\'t just present results as a black box; neural attribution maps show you exactly where indicators were detected and why each XRAI component was suggested for your daily routine.</string>
+    <string name="onboarding_p2_feature1">Clear interactive heat maps</string>
+    <string name="onboarding_p2_feature2">The reasons behind every recommendation</string>
+    <string name="onboarding_p2_chip_xrai">Interpretive AI (XRAI)</string>
+    <string name="onboarding_p2_chip_neural">Neural attribution analysis</string>
+    <string name="onboarding_p2_label_oily">Active oily congestion</string>
+    <string name="onboarding_p2_label_oily_sub">Neural attribution %1$d%%</string>
+    <string name="onboarding_p2_label_spot">Surface pigmentation spot</string>
+    <string name="onboarding_p2_label_spot_sub">Match accuracy %1$d%%</string>
+
+    <string name="onboarding_p3_label">Transparency &amp; qualification</string>
+    <string name="onboarding_p3_title">Your smart care companion.. not a substitute for your doctor</string>
+    <string name="onboarding_p3_body">DermaXRAI is designed to help you understand your daily skin needs and build a balanced, transparent routine; it never replaces specialized medical consultation.</string>
+    <string name="onboarding_p3_hero_badge">Guidance certified</string>
+    <string name="onboarding_p3_hero_chip">Interpretive algorithms (XRAI) are meant for preventive support</string>
+    <string name="onboarding_p3_notice_title">Transparency &amp; medical responsibility notice</string>
+    <string name="onboarding_p3_notice_body">This app is for guidance and education only. If you have acute skin conditions, chronic inflammation, or moles that change in color or size, always and promptly consult a qualified dermatologist.</string>
+    <string name="onboarding_p3_consent_title">I acknowledge that I understand the app is for guidance only</string>
+    <string name="onboarding_p3_consent_desc">The app will start scanning the skin\'s surface layers based on transparency maps</string>
+</resources>
