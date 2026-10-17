@@ -29,6 +29,18 @@
             android:label="@string/title_activity_settings"
             android:theme="@style/Theme.DermaXRAI"
             android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".features.scan.CameraActivity"
+            android:exported="false"
+            android:label="@string/title_activity_camera"
+            android:theme="@style/Theme.DermaXRAI"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".features.scan.ScanResultActivity"
+            android:exported="false"
+            android:label="@string/title_activity_scan_result"
+            android:theme="@style/Theme.DermaXRAI"
+            android:windowSoftInputMode="adjustResize" />
     </application>
 
 </manifest>

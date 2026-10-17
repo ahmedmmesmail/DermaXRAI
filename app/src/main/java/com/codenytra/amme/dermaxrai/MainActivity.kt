@@ -31,6 +31,7 @@ import androidx.compose.ui.unit.dp
 import com.codenytra.amme.dermaxrai.features.home.HomeScreen
 import com.codenytra.amme.dermaxrai.features.onboarding.OnboardingScreen
 import com.codenytra.amme.dermaxrai.features.routine.RoutineScreen
+import com.codenytra.amme.dermaxrai.features.scan.CameraActivity
 import com.codenytra.amme.dermaxrai.features.settings.SettingsActivity
 import com.codenytra.amme.dermaxrai.ui.navigation.CradleBottomBar
 import com.codenytra.amme.dermaxrai.ui.navigation.AppDestinations
@@ -54,9 +55,11 @@ class MainActivity : ComponentActivity() {
 fun DermaXRAIApp() {
     var currentDestination by rememberSaveable { mutableStateOf(AppDestinations.HOME) }
     val context = LocalContext.current
-    if (true) {
+    if (false) {
         OnboardingScreen(
-            onFinish = { },
+            onFinish = {
+
+            },
             logo = painterResource(R.drawable.icon),
             wordmark = painterResource(R.drawable.banner),
         )
@@ -93,7 +96,14 @@ fun DermaXRAIApp() {
                 CradleBottomBar(
                     currentDestination = currentDestination,
                     onDestinationClick = { currentDestination = it },
-                    onFabClick = { /* افتح الكاميرا */ }
+                    onFabClick = {
+                        context.startActivity(
+                            Intent(
+                                context,
+                                CameraActivity::class.java
+                            )
+                        )
+                    }
                 )
             }
         ) { innerPadding ->

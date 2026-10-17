@@ -181,4 +181,65 @@
     <string name="onboarding_p3_notice_body">This app is for guidance and education only. If you have acute skin conditions, chronic inflammation, or moles that change in color or size, always and promptly consult a qualified dermatologist.</string>
     <string name="onboarding_p3_consent_title">I acknowledge that I understand the app is for guidance only</string>
     <string name="onboarding_p3_consent_desc">The app will start scanning the skin\'s surface layers based on transparency maps</string>
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_scan_result">ScanResultActivity</string>
+
+    <!-- Camera -->
+    <string name="camera_title">Camera &amp; live scan</string>
+    <string name="camera_subtitle">Camera</string>
+    <string name="camera_face_detected">Face detected • Excellent lighting</string>
+    <string name="camera_tip_stable">Keep your phone steady and face the natural light source</string>
+    <string name="camera_tag_light">Natural light</string>
+    <string name="camera_tag_makeup">No makeup</string>
+    <string name="camera_tag_front">Face forward</string>
+    <string name="camera_tag_eyes">Eyes visible</string>
+    <string name="camera_guide">Guide</string>
+    <string name="camera_gallery">Gallery</string>
+    <string name="camera_privacy">Photos are analyzed securely on encrypted servers using the XRAI clinical model, and your shots are never stored.</string>
+    <string name="camera_light_sensor">Light sensor: %1$d%% (very weak)</string>
+    <string name="camera_accuracy_low">Insufficient accuracy</string>
+    <string name="camera_landmarks_unclear">Face landmarks unclear</string>
+    <string name="camera_metric_light">Lighting: low</string>
+    <string name="camera_metric_focus">Focus: unstable</string>
+    <string name="camera_metric_distance">Distance: %1$d cm</string>
+    <string name="camera_bad_title">Lighting is too dim</string>
+    <string name="camera_bad_chip">XRAI alert</string>
+    <string name="camera_bad_desc">The interpretive AI algorithms can\'t read pore details and surface lines reliably in this environment.</string>
+    <string name="camera_tips_title">For an accurate and reliable report:</string>
+    <string name="camera_tip_1">Face a direct front light source (like a natural window) and avoid harsh shadows.</string>
+    <string name="camera_tip_2">Turn on the smart assist flash to help reveal the skin layers.</string>
+    <string name="camera_tip_3">Remove medical or sun glasses and hold the phone at eye level.</string>
+    <string name="camera_flash_retry">Turn on flash and retry</string>
+    <string name="camera_retry_now">Retry now</string>
+    <string name="camera_pick_gallery">Pick from gallery</string>
+    <string name="camera_capture_disabled">Auto-capture button disabled</string>
+    <string name="camera_capture_disabled_hint">Activates automatically once lighting is sufficient</string>
+
+    <!-- Scan result -->
+    <string name="result_screen_title">Diagnostic Scan</string>
+    <string name="result_scan_complete">Smart clinical scan completed</string>
+    <string name="result_scan_id">Scan ID: #%1$s</string>
+    <string name="result_map_title">XRAI neural attribution map</string>
+    <string name="result_map_hide">Hide map</string>
+    <string name="result_map_show">Show map</string>
+    <string name="result_legend_title">Algorithm density:</string>
+    <string name="result_legend_low">Low</string>
+    <string name="result_legend_high">High</string>
+    <string name="result_inferred_type">Inferred type:</string>
+    <string name="result_skin_type">Skin type: oily and combination</string>
+    <string name="result_model_accuracy">Model accuracy %1$s</string>
+    <string name="result_findings_title">Detected skin challenges</string>
+    <string name="result_findings_count">%1$d priority areas</string>
+    <string name="result_xrai_label">XRAI explanation:</string>
+    <string name="result_f1_name">Active acne</string>
+    <string name="result_f1_expl">Pore congestion and heat foci were detected in the right chin and forehead area, with a noticeable rise in sebum secretion.</string>
+    <string name="result_f2_name">Sun pigmentation</string>
+    <string name="result_f2_expl">A slight color variation in the cheek area caused by UV response in the surface layer.</string>
+    <string name="result_f3_name">Enlarged pores</string>
+    <string name="result_f3_expl">Localized pore widening concentrated around the nose and inner cheek area.</string>
+    <string name="result_alert_title">Proactive clinical alert</string>
+    <string name="result_alert_body">Consult a qualified dermatologist if the breakouts persist for more than two weeks or are accompanied by painful inflammation.</string>
+    <string name="result_disclaimer">This app is for awareness and support, not a final medical diagnosis.</string>
+    <string name="result_export_pdf">Export the full care report as PDF</string>
+    <string name="result_open_routine">Go to your personalized care routine</string>
 </resources>

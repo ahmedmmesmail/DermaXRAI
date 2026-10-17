@@ -187,7 +187,13 @@ class DermaColors(
     val ctaStart: Color,
     val ctaEnd: Color,
     val outlinePill: Color,
-    val brandText: Color
+    val brandText: Color,
+    // Camera + Result
+    val cameraBar: Color,
+    val alertCard: Color,
+    val alertTitle: Color,
+    val alertBody: Color,
+    val mapBase: Color
 )
 
 private val LightDerma = DermaColors(
@@ -251,7 +257,12 @@ private val LightDerma = DermaColors(
     ctaStart = Color(0xFF602918),
     ctaEnd = Color(0xFF914A2D),
     outlinePill = Color(0xFFFFE2D7),
-    brandText = Color(0xFF5E2817)
+    brandText = Color(0xFF5E2817),
+    cameraBar = Color(0xCC8C7C76),
+    alertCard = Color(0xFFFFDAD6),
+    alertTitle = Color(0xFF9C1414),
+    alertBody = Color(0xFFBA1A1A),
+    mapBase = Color(0xFFFFF0EA)
 )
 
 private val DarkDerma = DermaColors(
@@ -315,7 +326,12 @@ private val DarkDerma = DermaColors(
     ctaStart = Color(0xFFA85A3C),
     ctaEnd = Color(0xFFA85A3C),
     outlinePill = Color(0xFF1E0E09),
-    brandText = Color(0xFFFFB59A)
+    brandText = Color(0xFFFFB59A),
+    cameraBar = Color(0xFF180A06),
+    alertCard = Color(0xFF3C1C14),
+    alertTitle = Color(0xFFE58A68),
+    alertBody = Color(0xFFC9805E),
+    mapBase = Color(0xFF2A140C)
 )
 
 private val LocalDermaColors = staticCompositionLocalOf { LightDerma }
